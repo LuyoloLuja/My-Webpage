@@ -100,6 +100,15 @@ footer {
     font-style: italic;
     font-size: small;
 }
+/*  link for my page --> under construction*/
+a {
+    background-color: silver;
+    margin: 3em;
+    padding: 5em;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 
 @media only screen and (max-width: 600px){
@@ -173,13 +182,8 @@ footer {
         box-shadow: none;
         width: 40%;
     }
-}
-/*  link for my page */
-a {
-    background-color: red;
-    margin: 3em;
-    padding: 3em;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+    a {
+        margin: 2em;
+        padding: 1em;
+    }
 }
