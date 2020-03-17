@@ -7,9 +7,9 @@
     width: 100%;
 }
 .header {
-    height: 5em;
-    padding-top: 20em;
+    height: 20em;
     background-color: silver;
+    padding-top: 5em;
 }
 .header a {
     background-color: black;
@@ -21,8 +21,16 @@
     border-radius: 10px;
     border: 2px solid white;
 }
+.header img {
+    margin-left: 10%;
+    border: 2px solid white;
+}
 @media only screen and (max-width: 600px) {
     .header a {
         padding: 1em;
+    }
+    .header img {
+        margin-left: 25%;
+        margin-top: 3.5em;
     }
 }
