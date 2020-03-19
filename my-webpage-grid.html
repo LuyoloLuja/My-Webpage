@@ -8,9 +8,11 @@
 
     <style>
         .header {
+            width: 100%;
             background-image: url("./Images/table-mountain.jpg");
             background-size: cover;
             height: 20em;
+            overflow-x: hidden;
         }
         .names {
             display: flex;
@@ -23,6 +25,15 @@
             border: 2px solid #333447;
             padding: 0.5;
         }
+        @media only screen and (max-width: 600px) {
+  
+        .names {
+            margin: 0;
+        }
+        .names h1 {
+            font-size: 20px;
+        }
+}
         footer {
             background-color: silver;
             padding: 2em;
@@ -41,7 +52,6 @@
         <div class="name">
             <h1>Luyolo</h1>
             <h1>Mntuyedwa</h1></div>
-    <div></div>
     <img src="./Images/luyolo.jpg" alt="Luyolo"></div>
 </div>
     <div class="container">
