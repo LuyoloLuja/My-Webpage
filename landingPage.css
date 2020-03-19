@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    background-image: url("./Images/table-mountain.jpg");
+    background-size: cover;
+    height: 20em;
+    overflow-x: hidden;
+}
+.names {
+    display: flex;
+}
+table {
+    border: 2px solid #333447;
+    border-collapse: collapse;
+}
+table th, tr, td {
+    border: 2px solid #333447;
+    padding: 0.5;
+}
+@media only screen and (max-width: 600px) {
+
+.names {
+    margin: 0;
+}
+.names h1 {
+    font-size: 20px;
+}
+}
+footer {
+    background-color: silver;
+    padding: 2em;
+    color: gray;
+    font-style: italic;
+    font-size: small;
+    overflow-x: hidden;
+}
