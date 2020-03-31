@@ -57,15 +57,15 @@
 }
 .language table {
     table-layout: fixed;
-    width: 70%;
-    border: 2px solid silver;
-    border-collapse: collapse;
+    width: 85%;
 }
 .language table th {
-    text-align: center;
+    background-color: silver;
+    text-align: left;
+    padding: 20px;
 }
-.language table th, tr, td {
-    border: 2px solid silver;
+.language table  tr, td {
+    border-bottom: 2px solid silver;
     padding: 0.5em;
 }
 .placesHeader h2 {
