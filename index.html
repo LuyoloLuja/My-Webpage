@@ -15,7 +15,7 @@
     width: 100%;
 }
 .header {
-    height: 20em;
+    height: 22em;
     background-color: silver;
     padding-top: 5em;
 }
@@ -35,7 +35,13 @@
 }
 @media only screen and (max-width: 600px) {
     .header a {
-        padding: 1em;
+        font-weight: normal;
+        border: 1px solid white;
+        padding: 10px;
+        margin: 10px;
+    }
+    .header .secondLink {
+        margin-left: 3em;
     }
     .header img {
         margin-left: 25%;
@@ -49,7 +55,7 @@
         <div class="header">
             <a href="my-webpage.html">Click To View My Webpage</a>
             <img class="my-image" src="./Images/luyolo.jpg" alt="Luyolo">
-            <a href="my-webpage-grid.html">Click To View Simple Grid</a>
+            <a href="my-webpage-grid.html" id="secondLink">Click To View Simple Grid</a>
         </div>
 
     </div>
